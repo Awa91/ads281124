@@ -1,4 +1,12 @@
 {
+  "sidebarText" : {
+"dashboard" : "Dashboard",
+"editProfile" : "Edit Profile",
+"contracts" : "Contracts",
+"reviews" : "Reviews",
+"analytics" : "Analytics",
+"search" : "Search"
+}   ,
   "section" : [
         {
             "title" : "Some title",
@@ -77,14 +85,7 @@
         "userGain" : 4300,
         "userLost" : 234
       }
- ],
-"sidebarText" : {
-"dashboard" : "Dashboard",
-"editProfile" : "Edit Profile",
-"contracts" : "Contracts",
-"reviews" : "Reviews",
-"analytics" : "Analytics",
-"search" : "Search"
-}   
+ ]
+
 
 }
