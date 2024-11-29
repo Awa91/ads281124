@@ -1,0 +1,16 @@
+{
+  "doughnutLabel" : "Users gain",
+  "searchPlaceholder" : "Search by status or company ",
+  "sidebarText" : {
+    "dashboard" : "Dashboard"
+  },
+  "section" : [{
+    "title" : "Some title"
+  }],
+  "applicationStatus" : [
+    {
+      "status" : "Applied",
+      "jobRequirement" : { "requirement" : ["Remote", "Contract"] }
+    }
+  ]
+}
