@@ -35,11 +35,26 @@ function App() {
   const [homeTown, setHomeTown] = useState<string>("");
   const [members, setMembers] = useState<Member[]>([]);
   const [demo, setDemo] = useState<Member[]>([]);
+  const [demo1, setDemo1] = useState([]);
 
+
+  //'https://github.com/Awa91/ads281124/blob/main/en-ns1.json'
+  console.log(demo1)
   console.log(photos);
   console.log(squad);
   console.log(members);
   console.log(demo);
+
+  useEffect(() => {
+    axios
+      .get("https://github.com/Awa91/ads281124/blob/main/demo.json")
+      .then((response) => {
+        setDemo1(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
 
   useEffect(() => {
     axios
